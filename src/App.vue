@@ -22,7 +22,10 @@
           <div class="blob">
             SU PRODUCTO SERA ENTREGADO EN MANOS DE SU FAMILIAR DIRECTO FAVORITO
             EL DIA: <br /><br />
-            <span class="text-bold">DOMINGO 12-03/2023 EN HS DEL MEDIODIA</span>
+            <span class="text-bold">DOMINGO 12-03-2023 EN HS DEL MEDIODIA</span>
+          </div>
+          <div class="tag-price">
+            <img src="./assets/img/tag-price.png" />
           </div>
         </div>
       </div>
@@ -144,6 +147,16 @@ h2 {
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03),
       0px 0px 2px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.12);
+  }
+
+  .tag-price {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    transform: rotate(25deg);
+    img {
+      width: 200px;
+    }
   }
 }
 
