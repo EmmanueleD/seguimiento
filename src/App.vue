@@ -112,6 +112,7 @@ h2 {
   .ul {
     margin: 1rem 0;
     background-color: #1e304488;
+    border-radius: 25px;
     ul {
       list-style: none;
       li::before {
