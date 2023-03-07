@@ -136,12 +136,16 @@ h2 {
 
   .blob {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     bottom: 10px;
     right: 10px;
     text-align: center;
     width: 70%;
-    height: 20%;
-    padding: 2.2rem 3rem 5rem;
+    height: 300px;
+    padding: 2.2rem 3rem;
     background-color: rgb(255, 255, 255);
     border: 2px solid #1e3044;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
@@ -167,6 +171,13 @@ h2 {
 @media only screen and (min-width: 750px) {
   .flayer {
     width: 500px;
+  }
+
+  .content {
+    .blob {
+      height: 25%;
+      padding: 3rem 1remw 3rem 4rem;
+    }
   }
 }
 </style>
